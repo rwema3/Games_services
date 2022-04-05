@@ -45,4 +45,3 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   /// optional in case of iOS.
   Future<String?> unlock({achievement: Achievement}) async {
     throw UnimplementedError("not implemented.");
-  }
