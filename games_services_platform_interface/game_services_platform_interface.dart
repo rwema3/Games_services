@@ -79,4 +79,3 @@ abstract class GamesServicesPlatform extends PlatformInterface {
 
   /// To sign the user out of Google Play Services.
   /// After calling, you can no longer make any actions
-  
