@@ -70,4 +70,4 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   /// You need to call the sign in before making any action,
   /// (like sending a score or unlocking an achievement).
   Future<String?> signIn() async {
-    throw UnimplementedError("not impl
+    throw UnimplementedError("not imp
