@@ -47,4 +47,5 @@ abstract class GamesServicesPlatform extends PlatformInterface {
     throw UnimplementedError("not implemented.");
   }
 
-  /// Submit a [score] to specific le
+  /// Submit a [score] to specific leader board.
+  /// [Score] takes three parameters:
