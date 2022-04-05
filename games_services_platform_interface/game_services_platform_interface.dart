@@ -25,4 +25,3 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   static set instance(GamesServicesPlatform instance) {
     PlatformInterface.verifyToken(instance, _token);
     _instance = instance;
-  }
