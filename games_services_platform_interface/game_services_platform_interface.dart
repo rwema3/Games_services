@@ -66,4 +66,4 @@ abstract class GamesServicesPlatform extends PlatformInterface {
     throw UnimplementedError("not implemented.");
   }
 
-  /// To sign in the us
+  /// To sign in the use
