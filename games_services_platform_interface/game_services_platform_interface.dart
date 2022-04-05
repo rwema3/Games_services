@@ -43,4 +43,3 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   /// [iOSID] the achievement id for iOS.
   /// [percentComplete] the completion percent of the achievement, this parameter is
   /// optional in case of iOS.
-  Future<String?> unlock({achievement: Achievement}) async {
