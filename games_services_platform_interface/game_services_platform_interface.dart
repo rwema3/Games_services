@@ -71,4 +71,4 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   /// (like sending a score or unlocking an achievement).
   Future<String?> signIn() async {
     throw UnimplementedError("not implemented.");
-  
+  }
