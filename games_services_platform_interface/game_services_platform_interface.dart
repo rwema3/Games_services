@@ -83,5 +83,3 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   Future<String?> signOut() async {
     throw UnimplementedError("not implemented.");
   }
-
-  /
