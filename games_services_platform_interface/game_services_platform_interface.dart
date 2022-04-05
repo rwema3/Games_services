@@ -75,4 +75,4 @@ abstract class GamesServicesPlatform extends PlatformInterface {
 
   /// Check to see if the user is currently signed into
   /// Game Center or Google Play Services
-  Future<bool?> get isSignedIn => throw Unimplem
+  Future<bool?> get isSignedIn => throw Unimplemen
