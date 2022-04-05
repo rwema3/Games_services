@@ -74,4 +74,3 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   }
 
   /// Check to see if the user is currently signed into
-  
