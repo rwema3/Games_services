@@ -12,4 +12,3 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   GamesServicesPlatform() : super(token: _token);
 
   static final Object _token = Object();
-
