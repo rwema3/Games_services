@@ -31,4 +31,3 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   /// [Achievement] takes two parameters:
   /// [androidID] the achievement id for android.
   /// [steps] If the achievement is of the incremental type
-  /// you can use this method to increment the steps.
