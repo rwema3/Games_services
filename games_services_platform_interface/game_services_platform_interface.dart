@@ -56,5 +56,4 @@ abstract class GamesServicesPlatform extends PlatformInterface {
     throw UnimplementedError("not implemented.");
   }
 
-  /// It will open the achievements screen.
-  
+  /// It will open the achievements scre
