@@ -38,4 +38,3 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   }
 
   /// Unlock an [achievement].
-  /// [Achievement] takes three parameters:
