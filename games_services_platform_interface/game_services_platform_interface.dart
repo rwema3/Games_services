@@ -93,4 +93,4 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   Future<String?> hideAccessPoint() async {
     throw UnimplementedError("not implemented.");
   }
-}
+
