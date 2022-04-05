@@ -86,9 +86,11 @@ abstract class GamesServicesPlatform extends PlatformInterface {
 
   /// Show the iOS Access Point.
   Future<String?> showAccessPoint(AccessPointLocation location) async {
-    throw UnimplementedError("notimplemented.");
+    throw UnimplementedError("not implemented.");
   }
 
   /// Hide the iOS Access Point.
   Future<String?> hideAccessPoint() async {
-    throw UnimplementedEr
+    throw UnimplementedError("not implemented.");
+  }
+}
