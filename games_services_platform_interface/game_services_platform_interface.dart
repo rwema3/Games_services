@@ -6,3 +6,4 @@ import 'package:games_services_platform_interface/models/score.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 import 'models/access_point_location.dart';
+
