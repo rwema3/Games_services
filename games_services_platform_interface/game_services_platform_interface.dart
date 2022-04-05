@@ -54,6 +54,3 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   /// [value] the score.
   Future<String?> submitScore({score: Score}) async {
     throw UnimplementedError("not implemented.");
-  }
-
-  
