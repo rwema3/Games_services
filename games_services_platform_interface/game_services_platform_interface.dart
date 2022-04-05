@@ -73,4 +73,4 @@ abstract class GamesServicesPlatform extends PlatformInterface {
     throw UnimplementedError("not implemented.");
   }
 
-  /// Check to see if the user is currently sig
+  /// Check to see if the user is currently si
