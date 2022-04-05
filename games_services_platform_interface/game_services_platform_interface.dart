@@ -67,4 +67,4 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   }
 
   /// To sign in the user.
-  ///
+  //
