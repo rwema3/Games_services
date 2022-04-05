@@ -61,4 +61,5 @@ abstract class GamesServicesPlatform extends PlatformInterface {
     throw UnimplementedError("not implemented.");
   }
 
-  /// It will open the leaderboards scre
+  /// It will open the leaderboards screen.
+  
