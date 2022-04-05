@@ -36,4 +36,3 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   Future<String?> increment({achievement: Achievement}) async {
     throw UnimplementedError("not implemented.");
   }
-
