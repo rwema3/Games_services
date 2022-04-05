@@ -7,4 +7,3 @@ import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 import 'models/access_point_location.dart';
 
-abstract class GamesServicesPlatform extends PlatformInterface {
