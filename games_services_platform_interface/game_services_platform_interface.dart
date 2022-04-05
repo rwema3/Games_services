@@ -24,3 +24,4 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   /// class that extends [GamesServicesPlatform] when they register themselves.
   static set instance(GamesServicesPlatform instance) {
     PlatformInterface.verifyToken(instance, _token);
+    _instance = instance;
