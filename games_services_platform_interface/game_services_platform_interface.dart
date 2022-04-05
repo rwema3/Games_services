@@ -57,4 +57,4 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   }
 
   /// It will open the achievements screen.
-  Future<String?> showAchievement
+  Future<String?> showAchievements
