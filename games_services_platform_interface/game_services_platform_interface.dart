@@ -85,4 +85,4 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   }
 
   /// Show the iOS Access Point.
-  Future<String?> showAccessPoint(AccessPointLocation location
+  Future<String?> showAccessPoint(AccessPointLocation locatio
