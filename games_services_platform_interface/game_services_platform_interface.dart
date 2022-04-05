@@ -26,5 +26,3 @@ abstract class GamesServicesPlatform extends PlatformInterface {
     PlatformInterface.verifyToken(instance, _token);
     _instance = instance;
   }
-
-  /// Increment an [achievement].
