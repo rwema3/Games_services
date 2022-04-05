@@ -74,4 +74,4 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   }
 
   /// Check to see if the user is currently signed into
-  /// Game Center or Google Pl
+  /// Game Center or Google P
