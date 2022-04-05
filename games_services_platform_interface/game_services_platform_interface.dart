@@ -84,4 +84,4 @@ abstract class GamesServicesPlatform extends PlatformInterface {
     throw UnimplementedError("not implemented.");
   }
 
-  /// Show the iOS Access Point
+  /// Show the iOS Access Poin
