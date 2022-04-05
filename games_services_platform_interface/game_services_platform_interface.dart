@@ -18,4 +18,3 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   /// The default instance of [GamesServicesPlatform] to use.
   ///
   /// Defaults to [MethodChannelGamesServices].
-  static GamesServicesPlatform get instance => _instance;
