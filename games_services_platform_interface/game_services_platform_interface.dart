@@ -37,3 +37,5 @@ abstract class GamesServicesPlatform extends PlatformInterface {
     throw UnimplementedError("not implemented.");
   }
 
+  /// Unlock an [achievement].
+  /// [Achievement] takes three parameters:
