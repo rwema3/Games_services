@@ -52,4 +52,4 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   /// [androidLeaderboardID] the leader board id that you want to send the score for in case of android.
   /// [iOSLeaderboardID] the leader board id that you want to send the score for in case of iOS.
   /// [value] the score.
-  Future<
+  Future<S
