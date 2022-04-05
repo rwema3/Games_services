@@ -73,4 +73,4 @@ abstract class GamesServicesPlatform extends PlatformInterface {
     throw UnimplementedError("not implemented.");
   }
 
-  /// Check to see if
+  /// Check to see i
