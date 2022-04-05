@@ -21,3 +21,4 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   static GamesServicesPlatform get instance => _instance;
 
   /// Platform-specific plugins should set this with their own platform-specific
+  /// class that extends [GamesServicesPlatform] when they register themselves.
