@@ -33,4 +33,3 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   /// [steps] If the achievement is of the incremental type
   /// you can use this method to increment the steps.
   /// * only for Android (see https://developers.google.com/games/services/android/achievements#unlocking_achievements).
-  Future<String?> increment({achievement: Achievement}) async {
