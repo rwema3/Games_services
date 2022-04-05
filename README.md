@@ -12,16 +12,6 @@ A Flutter plugin to support game center and google play games services.
 
 [Bagirishya Rwema Dominique](https://github.com/rwema3)  
 
-Video tutorial
-*Will be added soon.*  
-
-## Apps  
-
-Monkey Banana [Android](https://play.google.com/store/apps/details?id=com.jostudio.monkeybanana) & [iOS](https://apps.apple.com/gm/app/id1514479049) by Abedalkareem.  
-[Nonogram Colors](https://play.google.com/store/apps/details?id=com.tbuonomo.nonogramcolordot) by @tommybuonomo.
-[Ripple Effect Puzzle](https://play.google.com/store/apps/details?id=com.tbuonomo.rippleeffectpuzzle) by @tommybuonomo.
-Lights: A Memory Game [Android](https://play.google.com/store/apps/details?id=us.leephillips.lights) & [iOS](https://apps.apple.com/us/app/lights-a-memory-game/id1580230611) by @theLee3.
-
 
 ## Usage  
 #### Sign in:  
