@@ -90,4 +90,4 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   }
 
   /// Hide the iOS Access Point.
-  Future<String?> hideAccessPoint() asyn
+  Future<String?> hideAccessPoint() asy
