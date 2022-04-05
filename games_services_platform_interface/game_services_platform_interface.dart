@@ -81,4 +81,5 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   /// After calling, you can no longer make any actions
   /// on the user's account.
   Future<String?> signOut() async {
-    throw UnimplementedError("not implemented.")
+    throw UnimplementedError("not implemented.");
+  
