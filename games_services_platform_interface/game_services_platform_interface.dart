@@ -13,3 +13,4 @@ abstract class GamesServicesPlatform extends PlatformInterface {
 
   static final Object _token = Object();
 
+  static GamesServicesPlatform _instance = MethodChannelGamesServices();
