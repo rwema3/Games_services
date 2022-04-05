@@ -40,4 +40,3 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   /// Unlock an [achievement].
   /// [Achievement] takes three parameters:
   /// [androidID] the achievement id for android.
-  /// [iOSID] the achievement id for iOS.
