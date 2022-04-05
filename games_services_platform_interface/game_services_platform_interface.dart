@@ -53,4 +53,4 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   /// [iOSLeaderboardID] the leader board id that you want to send the score for in case of iOS.
   /// [value] the score.
   Future<String?> submitScore({score: Score}) async {
-    throw UnimplementedError(
+    throw UnimplementedError("
