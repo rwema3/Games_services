@@ -89,4 +89,4 @@ abstract class GamesServicesPlatform extends PlatformInterface {
     throw UnimplementedError("notimplemented.");
   }
 
-  /// Hide the iOS
+  /// Hide the iO
