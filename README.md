@@ -8,9 +8,9 @@ A Flutter plugin to support game center and google play games services.
 #### App ni iyi: 
 <img src="https://raw.githubusercontent.com/Abedalkareem/games_services/master/screenshots/screenshot1.png" width="200"/> <img src="https://raw.githubusercontent.com/Abedalkareem/games_services/master/screenshots/screenshot2.png" width="200"/> <img src="https://raw.githubusercontent.com/Abedalkareem/games_services/master/screenshots/screenshot3.png" width="200"/>  
 
-## Tutorials  
+## Developer:
 
-[Written tutorial](https://bit.ly/2yv1C00)  
+[Bagirishya Rwema Dominique](https://github.com/rwema3)  
 
 Video tutorial
 *Will be added soon.*  
