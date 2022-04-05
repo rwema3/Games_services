@@ -42,4 +42,3 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   /// [androidID] the achievement id for android.
   /// [iOSID] the achievement id for iOS.
   /// [percentComplete] the completion percent of the achievement, this parameter is
-  /// optional in case of iOS.
