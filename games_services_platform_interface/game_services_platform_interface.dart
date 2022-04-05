@@ -23,3 +23,4 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   /// Platform-specific plugins should set this with their own platform-specific
   /// class that extends [GamesServicesPlatform] when they register themselves.
   static set instance(GamesServicesPlatform instance) {
+    PlatformInterface.verifyToken(instance, _token);
