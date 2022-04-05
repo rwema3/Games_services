@@ -10,4 +10,3 @@ import 'models/access_point_location.dart';
 abstract class GamesServicesPlatform extends PlatformInterface {
   /// Constructs a GamesServicesPlatform.
   GamesServicesPlatform() : super(token: _token);
-
