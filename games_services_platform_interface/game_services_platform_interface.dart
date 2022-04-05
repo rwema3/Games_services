@@ -88,5 +88,3 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   Future<String?> showAccessPoint(AccessPointLocation location) async {
     throw UnimplementedError("notimplemented.");
   }
-
-  
