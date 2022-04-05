@@ -72,5 +72,3 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   Future<String?> signIn() async {
     throw UnimplementedError("not implemented.");
   }
-
-  
