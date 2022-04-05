@@ -62,4 +62,4 @@ abstract class GamesServicesPlatform extends PlatformInterface {
   }
 
   /// It will open the leaderboards screen.
-  Future<String?> showLeaderboards({iOSLeaderboardID = "", androi
+  Future<String?> showLeaderboards({iOSLeaderboardID = "", andro
