@@ -17,3 +17,6 @@ class GamesServices {
   /// optional in case of iOS.
   static Future<String?> unlock({achievement: Achievement}) async {
     return await GamesServicesPlatform.instance
+        .unlock(achievement: achievement);
+  }
+
