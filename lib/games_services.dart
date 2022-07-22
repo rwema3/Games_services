@@ -32,3 +32,4 @@ class GamesServices {
   }
 
   /// Submit a [score] to specific leader board.
+  /// [Score] takes three parameters:
