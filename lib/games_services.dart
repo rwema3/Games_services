@@ -9,3 +9,4 @@ export 'package:games_services_platform_interface/models/score.dart';
 export 'package:games_services_platform_interface/models/access_point_location.dart';
 
 class GamesServices {
+  /// Unlock an [achievement].
