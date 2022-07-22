@@ -10,4 +10,3 @@ export 'package:games_services_platform_interface/models/access_point_location.d
 
 class GamesServices {
   /// Unlock an [achievement].
-  /// [Achievement] takes three parameters:
