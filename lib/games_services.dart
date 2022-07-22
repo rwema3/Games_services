@@ -42,7 +42,3 @@ class GamesServices {
 
   /// It will open the achievements screen.
   static Future<String?> showAchievements() async {
-    return await GamesServicesPlatform.instance.showAchievements();
-  }
-
-  /// It will open the leaderboards screen.
