@@ -33,3 +33,4 @@ class GamesServices {
 
   /// Submit a [score] to specific leader board.
   /// [Score] takes three parameters:
+  /// [androidLeaderboardID] the leader board id that you want to send the score for in case of android.
