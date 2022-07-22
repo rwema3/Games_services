@@ -16,4 +16,3 @@ class GamesServices {
   /// [percentComplete] the completion percent of the achievement, this parameter is
   /// optional in case of iOS.
   static Future<String?> unlock({achievement: Achievement}) async {
-    return await GamesServicesPlatform.instance
