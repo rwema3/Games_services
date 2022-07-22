@@ -68,5 +68,4 @@ class GamesServices {
   /// To sign the user out of Goole Play Services.
   /// After calling, you can no longer make any actions
   /// on the user's account.
-  static Future<String?> signOut() async {
  
