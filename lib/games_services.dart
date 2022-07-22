@@ -46,4 +46,3 @@ class GamesServices {
   }
 
   /// It will open the leaderboards screen.
-  static Future<String?> showLeaderboards(
