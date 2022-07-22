@@ -41,3 +41,4 @@ class GamesServices {
   }
 
   /// It will open the achievements screen.
+  static Future<String?> showAchievements() async {
