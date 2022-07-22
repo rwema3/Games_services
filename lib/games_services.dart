@@ -74,5 +74,4 @@ class GamesServices {
 
   /// Show the iOS Access Point.
   static Future<String?> showAccessPoint(AccessPointLocation location) async {
-    return await GamesServicesPlatform.instance.showAccessPoint(location);
  
