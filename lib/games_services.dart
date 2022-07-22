@@ -36,8 +36,7 @@ class GamesServices {
   /// [androidLeaderboardID] the leader board id that you want to send the score for in case of android.
   /// [iOSLeaderboardID] the leader board id that you want to send the score for in case of iOS.
   /// [value] the score.
-  static Future<String?> submitScore({score: Score}) async {
-    
+  
   /// It will open the achievements screen.
   static Future<String?> showAchievements() async {
     return await GamesServicesPlatform.instance.showAchievements();
