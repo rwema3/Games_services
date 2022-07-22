@@ -79,6 +79,4 @@ class GamesServices {
 
   /// Hide the iOS Access Point.
   static Future<String?> hideAccessPoint() async {
-    return await GamesServicesPlatform.instance.hideAccessPoint();
-  }
-}
+ 
