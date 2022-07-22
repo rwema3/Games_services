@@ -60,7 +60,10 @@ class GamesServices {
     return await GamesServicesPlatform.instance.signIn();
   }
 
-  await GamesServicesPlatform.instance.isSignedIn ?? false;
+  /// Check to see if the user is currently signed into
+  /// Game Center or Google Play Services
+  static Future<bool> get isSignedIn async =>
+      await GamesServicesPlatform.instance.isSignedIn ?? false;
 
   /// To sign the user out of Goole Play Services.
   /// After calling, you can no longer make any actions
