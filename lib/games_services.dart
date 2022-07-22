@@ -20,3 +20,4 @@ class GamesServices {
         .unlock(achievement: achievement);
   }
 
+  /// Increment an [achievement].
