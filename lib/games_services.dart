@@ -26,8 +26,4 @@ class GamesServices {
   /// [steps] If the achievement is of the incremental type
   /// you can use this method to increment the steps.
   /// * only for Android (see https://developers.google.com/games/services/android/achievements#unlocking_achievements).
-  static Future<String?> increment({achievement: Achievement}) async {
-    return await GamesServicesPlatform.instance
-        .increment(achievement: achievement);
-  }
 
