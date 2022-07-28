@@ -49,4 +49,5 @@ class GamesServices {
   static Future<String?> showLeaderboards(
       {iOSLeaderboardID = "", androidLeaderboardID = ""}) async {
     return await GamesServicesPlatform.instance.showLeaderboards(
+        iOSLeaderboardID: iOSLeaderboardID,
   
