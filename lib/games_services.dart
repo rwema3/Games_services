@@ -50,10 +50,4 @@ class GamesServices {
       {iOSLeaderboardID = "", androidLeaderboardID = ""}) async {
     return await GamesServicesPlatform.instance.showLeaderboards(
         iOSLeaderboardID: iOSLeaderboardID,
-        androidLeaderboardID: androidLeaderboardID);
-  }
-
-  /// To sign in the user.
-  /// You need to call the sign in before making any action,
-  /// (like sending a score or unlocking an achievement).
   
