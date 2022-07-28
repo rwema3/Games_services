@@ -74,3 +74,6 @@ class GamesServices {
 
   /// Show the iOS Access Point.
   
+    return await GamesServicesPlatform.instance.hideAccessPoint();
+  }
+}
