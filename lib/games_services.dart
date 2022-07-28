@@ -40,3 +40,8 @@ class GamesServices {
     return await GamesServicesPlatform.instance.submitScore(score: score);
   }
 
+  /// It will open the achievements screen.
+  static Future<String?> showAchievements() async {
+    return await GamesServicesPlatform.instance.showAchievements();
+  }
+
