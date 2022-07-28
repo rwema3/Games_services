@@ -69,8 +69,4 @@ class GamesServices {
   /// After calling, you can no longer make any actions
   /// on the user's account.
   static Future<String?> signOut() async {
-    return await GamesServicesPlatform.instance.signOut();
-  }
-
-  /// Show the iOS Access Point.
   
