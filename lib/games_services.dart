@@ -8,4 +8,10 @@ export 'package:games_services_platform_interface/models/achievement.dart';
 export 'package:games_services_platform_interface/models/score.dart';
 export 'package:games_services_platform_interface/models/access_point_location.dart';
 
+class GamesServices {
+  /// Unlock an [achievement].
+  /// [Achievement] takes three parameters:
+  /// [androidID] the achievement id for android.
+  /// [iOSID] the achievement id for iOS.
+  /// [percentComplete] the completion percent of the achievement, this parameter is
 
