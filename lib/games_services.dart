@@ -60,7 +60,4 @@ class GamesServices {
     return await GamesServicesPlatform.instance.signIn();
   }
 
-  /// Check to see if the user is currently signed into
-  /// Game Center or Google Play Services
-  static Future<bool> get isSignedIn async =>
   
