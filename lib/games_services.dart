@@ -45,8 +45,3 @@ class GamesServices {
     return await GamesServicesPlatform.instance.showAchievements();
   }
 
-  /// It will open the leaderboards screen.
-  static Future<String?> showLeaderboards(
-      {iOSLeaderboardID = "", androidLeaderboardID = ""}) async {
-    return await GamesServicesPlatform.instance.showLeaderboards(
-  
