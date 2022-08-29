@@ -8,7 +8,24 @@ class MyApp extends StatefulWidget {
   _MyAppState createState() => _MyAppState();
 }
 
-
+class _MyAppState extends State<MyApp> {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+          appBar: AppBar(
+            title: const Text('Games Services plugin example app'),
+          ),
+          body: Center(
+            child: Column(
+              children: <Widget>[
+                ElevatedButton(
+                  child: Text('signIn'),
+                  onPressed: () async {
+                    final result = await GamesServices.signIn();
+                    print(result);
+                  },
+                ),
                 ElevatedButton(
                   child: Text('Show Achievements'),
                   onPressed: () async {
