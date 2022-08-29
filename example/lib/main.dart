@@ -52,7 +52,17 @@ class _MyAppState extends State<MyApp> {
                     print(result);
                   },
                 ),
-              
+                ElevatedButton(
+                  child: Text('Unlock'),
+                  onPressed: () async {
+                    final result = await GamesServices.unlock(
+                        achievement: Achievement(
+                            androidID: 'android_id',
+                            iOSID: 'ios_id',
+                            percentComplete: 100));
+                    print(result);
+                  },
+                ),
                 ElevatedButton(
                   child: Text('Increment'),
                   onPressed: () async {
