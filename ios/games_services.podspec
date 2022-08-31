@@ -13,6 +13,9 @@ A new Flutter plugin to support game center and google play games services.
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
-s
+  s.public_header_files = 'Classes/**/*.h'
+  s.dependency 'Flutter'
+  s.swift_version = '5.0'
+
   s.ios.deployment_target = '11.0'
 end
