@@ -7,15 +7,6 @@ class MyApp extends StatefulWidget {
   @override
   _MyAppState createState() => _MyAppState();
 }
-
-class _MyAppState extends State<MyApp> {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-          appBar: AppBar(
-            title: const Text('Games Services plugin example app'),
-          ),
           body: Center(
             child: Column(
               children: <Widget>[
@@ -26,13 +17,7 @@ class _MyAppState extends State<MyApp> {
                     print(result);
                   },
                 ),
-                ElevatedButton(
-                  child: Text('Show Achievements'),
-                  onPressed: () async {
-                    final result = await GamesServices.showAchievements();
-                    print(result);
-                  },
-                ),
+              
                 ElevatedButton(
                   child: Text('Show Leaderboards'),
                   onPressed: () async {
