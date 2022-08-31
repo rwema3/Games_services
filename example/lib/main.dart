@@ -17,7 +17,13 @@ class MyApp extends StatefulWidget {
                     print(result);
                   },
                 ),
-              
+                ElevatedButton(
+                  child: Text('Show Achievements'),
+                  onPressed: () async {
+                    final result = await GamesServices.showAchievements();
+                    print(result);
+                  },
+                ),
                 ElevatedButton(
                   child: Text('Show Leaderboards'),
                   onPressed: () async {
