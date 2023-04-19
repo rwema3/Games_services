@@ -60,6 +60,7 @@ export 'package:games_services_platform_interface/models/access_point_location.d
     return await GamesServicesPlatform.instance.signOut();
   }
 
+
   /// Show the iOS Access Point.
   static Future<String?> showAccessPoint(AccessPointLocation location) async {
     return await GamesServicesPlatform.instance.showAccessPoint(location);
